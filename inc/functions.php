@@ -4,7 +4,7 @@
 // Each associative array should contain the following key-value pairs:
 //   "quote" => (str) The text of the quote itself,
 //   "source" => (str) The creator of the quote,
-//   "type" (optional) => (str) e.g., "book", "movie", etc.
+//   "type" (optional) => (str) e.g., "book," "movie," etc.
 //   "citation" (optional) => (str) Where the quote comes from, e.g., book, movie, TV series, etc.,
 //   "year" (optional) => (int) The year of the quote.
 // The quotes are the top 5 quotes from the American Film Institute (AFI)'s '100 Years...100 Movie Quotes.'

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body style='background-color: <?php echo "#" . dechex(rand(0, 16777215)); ?>'>
   <div class="container">
     <div id="quote-box">
       <?php include 'inc/functions.php'; ?>
