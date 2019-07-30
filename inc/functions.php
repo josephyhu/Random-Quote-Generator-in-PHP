@@ -57,7 +57,7 @@ function printQuote() {
   $string .= "<p class='quote'>" . $quote["quote"] . "</p>";
   $string .= "<p class='source'>" . $quote["source"];
   if ($quote["type"]) {
-    $string .= "<span class='type'>". $quote["type"] . "</span";
+    $string .= "<span class='type'>". $quote["type"] . "</span>";
   }
   if ($quote["citation"]) {
     $string .= "<span class='citation'>" . $quote["citation"] . "</span>";
