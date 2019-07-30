@@ -1,2 +1,1 @@
-# Random Quote Generator in PHP
- 
+My first Treehouse PHP Techdegree project.
