@@ -1,3 +1,4 @@
+<?php include 'inc/functions.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +9,9 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body style='background-color: <?php echo "#" . dechex(rand(0, 16777215)); ?>'>
+<body style='background-color: <?php color(); ?>'>
   <div class="container">
     <div id="quote-box">
-      <?php include 'inc/functions.php'; ?>
       <?php printQuote(); ?>
     </div>
     <button id="loadQuote" onclick="window.location.reload(true)" >Show another quote</button>

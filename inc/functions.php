@@ -68,4 +68,16 @@ function printQuote() {
   $string .= "</p>";
   echo $string;
 }
+
+// Choose a random hex value for the background color.
+function color() {
+  $color = "#";
+  $color .= dechex(rand(0, 15));
+  $color .= dechex(rand(0, 15));
+  $color .= dechex(rand(0, 15));
+  $color .= dechex(rand(0, 15));
+  $color .= dechex(rand(0, 15));
+  $color .= dechex(rand(0, 15));
+  echo $color;
+}
 ?>
