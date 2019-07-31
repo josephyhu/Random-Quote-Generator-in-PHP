@@ -71,13 +71,29 @@ function printQuote() {
 
 // Choose a random hex value for the background color.
 function color() {
-  $color = "#";
-  $color .= dechex(rand(0, 15));
-  $color .= dechex(rand(0, 15));
-  $color .= dechex(rand(0, 15));
-  $color .= dechex(rand(0, 15));
-  $color .= dechex(rand(0, 15));
-  $color .= dechex(rand(0, 15));
-  echo $color;
+  $color1 = "#";
+  $color1 .= dechex(rand(0, 15));
+  $color1 .= dechex(rand(0, 15));
+  $color1 .= dechex(rand(0, 15));
+  $color1 .= dechex(rand(0, 15));
+  $color1 .= 0;
+  $color1 .= 0;
+  $color2 = "#";
+  $color2 .= dechex(rand(0, 15));
+  $color2 .= dechex(rand(0, 15));
+  $color2 .= 0;
+  $color2 .= 0;
+  $color2 .= dechex(rand(0 ,15));
+  $color2 .= dechex(rand(0, 15));
+  $color3 = "#";
+  $color3 .= 0;
+  $color3 .= 0;
+  $color3 .= dechex(rand(0, 15));
+  $color3 .= dechex(rand(0, 15));
+  $color3 .= dechex(rand(0, 15));
+  $color3 .= dechex(rand(0, 15));
+  $colors = [$color1, $color2, $color3];
+  $picker = rand(0, 2);
+  echo $colors[$picker];
 }
 ?>
