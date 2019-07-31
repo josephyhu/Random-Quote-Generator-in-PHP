@@ -93,7 +93,6 @@ function color() {
   $color3 .= dechex(rand(0, 15));
   $color3 .= dechex(rand(0, 15));
   $colors = [$color1, $color2, $color3];
-  $picker = rand(0, 2);
-  echo $colors[$picker];
+  echo $colors[rand(0, 2)];
 }
 ?>
