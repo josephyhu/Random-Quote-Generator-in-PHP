@@ -57,7 +57,7 @@ function printQuote() {
   $string .= "<p class='quote'>" . $quote["quote"] . "</p>";
   $string .= "<p class='source'>" . $quote["source"];
   if ($quote["type"]) {
-    $string .= "<span class='type'>". $quote["type"] . "</span>";
+    $string .= "<span class='type'>" . $quote["type"] . "</span>";
   }
   if ($quote["citation"]) {
     $string .= "<span class='citation'>" . $quote["citation"] . "</span>";
@@ -71,28 +71,12 @@ function printQuote() {
 
 // Choose a random hex value for the background color.
 function color() {
-  $color1 = "#";
-  $color1 .= dechex(rand(0, 15));
-  $color1 .= dechex(rand(0, 15));
-  $color1 .= dechex(rand(0, 15));
-  $color1 .= dechex(rand(0, 15));
-  $color1 .= 0;
-  $color1 .= 0;
-  $color2 = "#";
-  $color2 .= dechex(rand(0, 15));
-  $color2 .= dechex(rand(0, 15));
-  $color2 .= 0;
-  $color2 .= 0;
-  $color2 .= dechex(rand(0 ,15));
-  $color2 .= dechex(rand(0, 15));
-  $color3 = "#";
-  $color3 .= 0;
-  $color3 .= 0;
-  $color3 .= dechex(rand(0, 15));
-  $color3 .= dechex(rand(0, 15));
-  $color3 .= dechex(rand(0, 15));
-  $color3 .= dechex(rand(0, 15));
-  $colors = [$color1, $color2, $color3];
-  echo $colors[rand(0, 2)];
+  $color = "#";
+  $color .= dechex(rand(0, 5));
+  $color .= dechex(rand(0, 9));
+  $color .= dechex(rand(0, 5));
+  $color .= dechex(rand(0, 9));
+  $color .= dechex(rand(0, 5));
+  $color .= dechex(rand(0, 9));
+  echo $color;
 }
-?>
