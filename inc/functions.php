@@ -109,7 +109,6 @@ function getRandomQuote($array) {
   return $array[rand(0, count($array))];
 }
 
-
 function printQuote() {
   global $quotes;
   $quote = getRandomQuote($quotes);
