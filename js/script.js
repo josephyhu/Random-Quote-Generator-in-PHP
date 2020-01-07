@@ -5,7 +5,7 @@ let citation;
 let year;
 const customQuote = document.querySelector('#customQuote');
 
-const displayQuote = () => {
+const printQuote = () => {
   let string = "";
   string += "<p class='quote'>" + quote + "</p>";
   string += "<p class='source'>" + source;
@@ -19,12 +19,7 @@ const displayQuote = () => {
     string += "<span class='year'>" + year + "</span>";
   }
   string += "</p>";
-  return string;
-}
-
-const printQuote = quote => {
-  let div = document.getElementById('quote-box');
-  div.innerHTML = quote;
+  document.getElementById('quote-box').innerHTML = string;
 }
 
 customQuote.addEventListener('click', () => {
@@ -33,5 +28,5 @@ customQuote.addEventListener('click', () => {
   type = prompt("Enter the type.");
   citation = prompt("Enter the citation.");
   year = prompt("Enter the year.");
-  printQuote(displayQuote());
+  printQuote();
 });
