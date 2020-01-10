@@ -54,12 +54,6 @@ $quotes = [
             "citation" => "Taxi Driver",
             "year" => 1976
            ],
-           ["quote" => "People die when they're killed.",
-            "source" => "Emiya Shirou",
-            "type" => "visual novel",
-            "citation" => "Fate/stay night",
-            "year" => 2004
-           ],
            ["quote" => "El Psy Kongroo.",
             "source" => "Okabe Rintaro",
             "type" => "visual novel",
@@ -84,7 +78,13 @@ $quotes = [
             "citation" => "KonoSuba: God's Blessing on This Wonderful World!",
             "year" => 2016
            ],
-           ["quote" => "War is peace. Freedom is slavery. Ignorance is strength.",
+           ["quote" => "People die if they are killed...",
+            "source" => "Emiya Shirou",
+            "type" => "anime",
+            "citation" => "Fate/stay night",
+            "year" => 2006
+           ],
+           ["quote" => "WAR IS PEACE, FREEDOM IS SLAVERY, IGNORANCE IS STRENGTH.",
             "source" => "George Orwell",
             "type" => "book",
             "citation" => "Nineteen Eighty-Four",
