@@ -16,6 +16,5 @@
       </div>
       <button id="loadQuote" onclick="window.location.reload(true)" >Show another quote</button>
     </div>
-    <script src="js/script.js"></script>
   </body>
 </html>
